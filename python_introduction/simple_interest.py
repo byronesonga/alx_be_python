@@ -1,5 +1,5 @@
 def interest(P,R,T):
-    I = P*R*T
+    I = (P*R*T)
     return I
 P = 1000
 R =0.05
