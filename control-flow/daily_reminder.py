@@ -14,4 +14,5 @@ if time_bound =="yes":
    reminder +="Work on this task first"
 else:
    reminder +="Work on the task later."
+print(f"Reminder: '{task}' is of high priority.")
 print(reminder)
