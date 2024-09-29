@@ -7,8 +7,8 @@ def perform_operation(num1, num2,operation):
         return num1 * num2
     elif operation == "divide":
         if num2 == 0:
-            print("Error:Cannot divide by zero")
+            print("Error:cannot divide by zero")
         else:
             return num1/num2
     else:
-        print("Error:Unsupported operation")
+        print("Error: Unsupported operation")
