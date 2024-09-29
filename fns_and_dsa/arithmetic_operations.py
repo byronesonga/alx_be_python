@@ -1,4 +1,4 @@
-def perform_operation(num1, num2,operation):
+def perform_operation(num1, num2, operation):
     if operation == "add":
         return num1 + num2
     elif operation == "subtract":
@@ -7,8 +7,8 @@ def perform_operation(num1, num2,operation):
         return num1 * num2
     elif operation == "divide":
         if num2 == 0:
-            print("Error:cannot divide by zero")
+            print("Division by zero is undefined")
         else:
             return num1/num2
     else:
-        print("Error: Unsupported operation")
+        print("wrong input")
