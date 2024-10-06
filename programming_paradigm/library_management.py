@@ -7,7 +7,7 @@ class Book:
 
     def __str__(self):
         return f"{self.title} by {self.author} (ISBN: {self.isbn}) - {'Available' if self.available else 'Checked Out'}"
-def checkout_book(self, isbn):
+    def checkout_book(self, isbn):
         for book in self.books:
             if book.isbn == isbn:
                 if book.available:
@@ -18,7 +18,7 @@ def checkout_book(self, isbn):
                 return
         print("Book not found.")
 
-def return_book(self, isbn):
+    def return_book(self, isbn):
         for book in self.books:
             if book.isbn == isbn:
                 if not book.available:
@@ -28,8 +28,6 @@ def return_book(self, isbn):
                     print("Book was not checked out.")
                 return
         print("Book not found.")
-
-
 class Library:
     def __init__(self):
         self.books = []  # List to store books in the library
