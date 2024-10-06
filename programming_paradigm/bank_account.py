@@ -21,7 +21,7 @@ class BankAccount:
             print("Withdrawal amount must be positive.")
 
     def display_balance(self):
-        return self.balance
+        print(f"Current Balance: ${self.balance:.2f}")
 
     def __str__(self):
         return f"BankAccount(account_number={self.account_number}, balance=${self.balance:.2f})"
