@@ -20,7 +20,7 @@ class BankAccount:
         else:
             print("Withdrawal amount must be positive.")
 
-    def get_balance(self):
+    def display_balance(self):
         return self.balance
 
     def __str__(self):
