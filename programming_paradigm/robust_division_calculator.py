@@ -1,4 +1,4 @@
-def divide(numerator, denominator):
+def safe_divide(numerator, denominator):
     try:
         # Attempt to convert inputs to float for division
         num = float(numerator)
