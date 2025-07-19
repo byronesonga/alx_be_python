@@ -12,6 +12,5 @@ if time_bond == "yes":
        print("that requires immediate attention today!")
 elif time_bond == "no":
        print("Consider completing it when you have free time.")
-else:
-       print("No pressure yet!")
+
              
