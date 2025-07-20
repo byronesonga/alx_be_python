@@ -3,7 +3,7 @@ if size > 0:
     count = 0
     while count < size: 
         for i in range(size):
-            print("*" * size , end=" ")
+            print(size * "*" , end=" ")
             print()
             count +=1 
         
